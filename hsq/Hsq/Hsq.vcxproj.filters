@@ -13,10 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{47762fe1-3a41-4bb7-b1b2-20343a04e2f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{4a050cb3-040c-4d07-b668-70889e217637}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hsq.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Driver.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Driver.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
